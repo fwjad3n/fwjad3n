@@ -1,0 +1,30 @@
+package jaden;
+
+import java.util.scanner;
+
+public class ja {
+
+  public static void main(String[] args) {
+  system.out.println("what is todays date mr dogan");
+  system.out.println("October 27th, 2022");
+  system.out.println("October 1th, 2022");
+  system.out.println("October 23th, 2022");
+  system.out.println("October 21th, 2022");
+  
+  Scanner scan = new Scanner(System.in);
+  String UserAnswer = scan.next();
+  
+  String Answer1 = "A"
+  switch (UserAnswer)
+  {
+  case "A": System.our.println("You are correct!");
+  break;
+  case "B": System.our.println("You are incorrect!");
+  break;
+  case "C": System.our.println("You are incorrect!");
+  break;
+  case "D": System.our.println("You are incorrect!");
+  break;
+   }
+   }
+}
